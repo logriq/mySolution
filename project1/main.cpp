@@ -314,10 +314,10 @@ int main()
 //}m
 
 
-#include <iostream>
-
-int main()
-{
+//#include <iostream>
+//
+//int main()
+//{
 // Синтаксис оператора if: (28)
 
 	/*if (умова№1 )
@@ -375,7 +375,7 @@ int main()
 	 }*/
 
 
-	//ПОНЯТТЯ ЦИКЛУ
+	//(31)ПОНЯТТЯ ЦИКЛУ
 
 	// 1. while
 	// 2. do while
@@ -384,7 +384,7 @@ int main()
 	
 
 
-	// Синтаскис циклу while: коли дія зв'язана з умовою
+	//(32) Синтаскис циклу while: коли дія зв'язана з умовою
 
 	/*while (умова)
 	{
@@ -393,21 +393,296 @@ int main()
 	*/
 
 
-	int sum = 0;
+	/*int sum = 0;
 	int number;
 
-	std::cout << "Enter a number (or 0 to stop)";
+	std::cout << "Enter a number (or 0 to stop) ";
 	std::cin >> number;
 	sum += number;
 
 	while (number != 0)
 	{
-	std::cout << "Enter a number (or 0 to stop)";
+	std::cout << "Enter a number (or 0 to stop) ";
 	std::cin >> number;
 	sum += number;
 	}
 
-	std::cout << "Sum = " << sum << std::endl;
+	std::cout << "Sum = " << sum << std::endl;*/
+
+
+
+	//(33) Синтаскис циклу do while: коли дія зв'язана з умовою
+
+	/*do
+	{
+	Перелік дій
+	 }while (умова);
+	*/
+
+	//#include <iostream>
+
+	//int main()
+	//{
+	
+		/*int number;
+	do
+	{
+		std::cout << "Enter a number (or negative to stop): ";
+		std::cin >> number;
+		if (number >= 0)
+			std::cout << "sqare = " << number * number << std::endl;
+	} while (number >= 0);*/
+
+
+
+
+
+		// (34) Синтаксис циклу for:
+
+		//for (Оператор_ініціалізації; Вираз; Оператор_Зміни)
+		// Оператор;
+
+		/*for (int number = 1; number <= 10; number++)
+		{
+			std::cout << number << " ";
+		}*/
+
+
+
+		//break (36) 
+
+
+
+		// continue(37)
+
+
+	//int number, sum = 0;
+
+	// while -> умова
+	// do while -> умова
+	// for -> блок_інкременту
+
+//	do {
+//		std::cout << "Enter next positive number (or 0 to stop): ";
+//		std::cin >> number;
+//
+//		if (number < 0) {
+//			std::cout << "You entered negative number.\n";
+//			continue;
+//		}
+//		else {
+//			sum += number;
+//		}
+//	} while (number != 0);
+//
+//	std::cout << "Sum = " << sum << std::endl;
+//
+//
+//	return 0;
+//}
+
+
+
+
+
+
+// МАСИВИ(40)- іменована сукупність однотипних даних
+
+// Синтаксис створення змінної:
+// Тип_Даних Ім'я_Змінної;
+
+// Синтаксис створення масиву:
+// Тип_Даних Ім'я_Масиву[Кількість_Елементів];
+
+// Синтаксис звернення до елементу масиву:
+// Ім'я_Масиву[Індекс_Елементу];
+
+
+//#include <iostream>
+//
+//int main()
+//{
+//	const int SIZE = 3;
+//
+//	int arr[SIZE];
+//
+//	for (int index = 0; index < SIZE; index++)
+//		arr[index] = index * index;
+//
+//	for (int index = 0; index < SIZE; index++)
+//		std::cout << "arr[" << index << "] = " << arr[index] << std::endl;
+//
+//	return 0;
+//}
+
+
+
+
+
+// Багатовимірні масиви (41)
+
+// Синтаксис створення 2-вимірного масиву:
+// Тип_Даних Ім'я_Масиву[Кількість_Підмасивів][Кількість_Елементів]
+
+// Синтаксис до звернення елемента 2-вимірного масиву:
+// Ім'я_Масиву[Індекс_Підмасиву][Індекс_Елементу_Підмасиву]
+
+/*#include <iostream>  
+
+ int main() 
+ {
+	const int WEEKS = 2, DAYS = 5;
+
+	int temperatures[WEEKS][DAYS];
+
+	for (int i = 0; i < WEEKS; i++) {
+		for (int j = 0; j < DAYS; j++) {
+			temperatures[i][j] = j + i * j + i;
+		}
+	}
+
+	for (int i = 0; i < WEEKS; i++) {
+		for (int j = 0; j < DAYS; j++) {
+			std::cout << "temperatures[" << i << "][" << j << "] = " << temperatures[i][j] << std::endl;
+		}
+		std::cout << std::endl;
+	}
+
+	return 0;
+}*/ 
+
+
+
+//Рядки (42)
+
+//#include <iostream>
+//
+//int main()
+//{
+//	std::cout << "Enter two word: ";
+//
+//	char word[30];
+//	char word2[30];
+//	
+//	std::cin >> word;
+//	std::cin >> word2;
+//
+//	std::cout << "Your word: " << word << std::endl;
+//	std::cout << "Your word2: " << word2 << std::endl;
+//
+//	return 0;
+//}
+
+
+
+
+// Функція(43)- це іменований набір коду, який може приймати якусь інформацію та повертати результат.
+
+
+/*
+Синтаксис визначення функції:
+Тип Повертаючого значенняя  Ім'я функції (список параметрів)
+{
+Код
+}
+*/
+
+/*
+Синтаксис виклику функції:
+Ім'я функції (список параметрів);
+*/
+
+/*
+При створенні функції | При виклик функції
+Формальні параметри   | Фактичні параметри
+Формальні аргументи   | Фактичні аргументи
+Парамкетри            | Аргументи
+*/
+
+#include <iostream>
+
+//int Multiple(int a, int b)
+//{
+//	return a * b;
+//}
+//
+//double ToCube(double number)
+//{
+//	double cube = number * number * number;
+//	return cube;
+//}
+//
+//int main()
+//{
+//	double number = 2.5;
+//	double cube = ToCube(number);
+//
+//	std::cout << "Number = " << number << std::endl;
+//	std::cout << "Cube = " << cube << std::endl;
+//
+//	return 0;
+//}
+
+
+//void Show(int arr[], int size)
+//{
+//	for (int i = 0; i < size; i++)
+//	{
+//		std::cout << arr[1] << " ";
+//	}
+//	std::cout << std::endl;
+//}
+//
+//
+//void Initialize(int arr[], int size)
+//{
+//	for (int i = 0; i < size; i++)
+//	{
+//		arr[i] = i + i;
+//	}
+//}
+//
+//int main()
+//{
+//	const int SIZE1 = 3;
+//	const int SIZE2 = 5;
+//
+//	int arr1[SIZE1];
+//	int arr2[SIZE2];
+//
+//	Initialize(arr1, SIZE1);
+//	Initialize(arr2, SIZE2);
+//
+//	Show(arr1, SIZE1);
+//	Show(arr2, SIZE2);
+//
+//	return 0;
+//}
+
+
+// відмінність відправки масивів і змінних
+
+void A(int arr[], int size)
+{
+	arr[0] = 5;
+}
+
+
+void B(int a)
+{
+	a = 3;
+}
+
+int main()
+{
+	int arr[3] = { 1, 2, 3 };
+	int a = 10;
+
+	A(arr, 3);
+	B(a);
+
+	std::cout << arr[0] << std::endl;
+	std::cout << a << std::endl;
 
 	return 0;
 }
