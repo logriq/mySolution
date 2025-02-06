@@ -1,2 +1,5 @@
 ﻿  main.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\main.cpp(1096,7): warning C4101: arr: неиспользованная локальная переменная
+C:\Users\Arina\Desktop\C++\solution\project1\main.cpp(1097,8): warning C4101: p: неиспользованная локальная переменная
+C:\Users\Arina\Desktop\C++\solution\project1\main.cpp(1095,9): warning C4101: c: неиспользованная локальная переменная
   project1.vcxproj -> C:\Users\Arina\Desktop\C++\solution\x64\Debug\project1.exe
