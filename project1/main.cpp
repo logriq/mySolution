@@ -1084,7 +1084,9 @@ int GetVaule20_30()
 
 //СТЕК,КУПА,ДИНАМІЧНА ПАМ'ЯТЬ
 
-int Function2()
+
+//Стек.займає мало пам'яті. first in, last out. змінна знищується коли закінчується область її видимості
+/*int Function2()
 {
 	int a = 5;
 	return a;
@@ -1107,7 +1109,188 @@ int main()
 	variable = Function2();
 
 	return 0;
+}*/
+
+//Статична пам'ять - створює статичні дані перед ф-ією main,знищуються дані після закінчення програми
+//Завжди існують, можна звертатись до них протягом всього коду.
+
+
+
+//Купа,Куча - вся оперативна пам'ять. створення даних повертає вказівники
+// треба видаляти самостійно або знищення після завершення коду
+
+
+
+
+
+// 2 частина: Вказівники
+
+//#include <iostream>
+//#include <ctime>
+//#include <cstdlib>
+
+/*int* CreateVariable(int value);
+void Func()
+{
+	std::cout << &"Hello World" << std::endl;
 }
+
+void Initialize(int arr[], int size);
+void Showww(const int arr[], int size);
+
+int main()
+{
+	const char* ptr = "Hello World";
+	int a = 5;
+	std::cout << ptr << '\n';
+
+	int a = 10;
+	int b = 20;
+	int c = 30;
+	int* arr[3] = { &a, &b, &c };
+	for (int i = 0; i < 3; i++)
+	{
+		std::cout << *arr[0] << " ";
+	}
+
+	int arr2[3][5] = { 0 };
+	int (*ptr)[5] = arr2;
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 5; j++)
+		{
+		}
+		std::cout << std::endl;
+	}
+
+	int arr2[3][5][5] = { 0 };*/
+
+
+
+
+	// new delete
+
+
+
+	/*int* a = new int;
+	std::cout << a << '\n';
+	std::cout << *a << std::endl;
+	*a = 10;
+
+	int* ptr1 = new int{ 10 };
+	const int* ptr2 = new const int{ 20 };
+	int** ptr3 = new int* { nullptr };
+	delete ptr1;
+	delete ptr2;
+	delete ptr3;
+
+	int* ptr = CreateVariable(10);
+	delete ptr;
+
+	srand(static_cast<unsigned>(time(nullptr)));
+	int size;
+	std::cin >> size;
+	int* arr = new int[size];
+
+	std::cout << "Enter rows:";
+	int rows;
+	std::cin >> rows;
+	std::cout << "Enter columns: ";
+	
+int columns;
+	std::cin >> columns;
+	for (int i = 0; i < rows; i++)
+	{
+		arr[i] = new int[columns];
+	}
+	for (int i = 0; i < rows; i++)
+		delete[] arr[i];
+	delete[] arr;*/
+
+
+
+	// L-value R-value
+	/*int var = 10;
+	int* bad_addr = &(var + 1); // невірно
+	int* addr = &var; // вірно
+	&var = 40;*/
+
+
+
+
+	// Посилання
+/*int variable = 10;
+const int CONST = 20;
+int* ptr1 = &variable;
+const int* ptr2 = &CONST;
+variable = 50;
+*ptr1 = 100;
+	
+std::cout << CONST << std::endl;
+std::cout << *ptr2 << std::endl;
+	
+int& ref1 = variable;
+
+std::cout << "&variable = " << &variable << std::endl;
+std::cout << "&ptr1 = " << &ptr1 << std::endl;
+std::cout << "&ref1 = " << &ref1 << std::endl;
+
+const int& ref2 = CONST;
+const int& ref = 10;
+int&& ref3 = 200;
+
+int a = 10;
+int* p = &a;
+int*& refp = p;
+p = (int*)5;
+
+std::cout << refp << " = " << p << std::endl;
+std::cout << &refp << " = " << &p << std::endl;
+
+int arr[5] = { 1, 2, 3, 4, 5 };
+int(&ref_arr)[5] = arr;
+	for (size_t i = 0; i < 5; i++)
+	{
+		std::cout << arr[i] << std::endl;
+	}
+
+int arr2[] = { 1, 2, 3, 4 };
+int size2 = 3;
+int& minElement = *Min(arr2, size2);
+
+minElement = 50;
+
+	return 0;
+}
+
+int* CreateVariable(int value)
+{
+	return new int{ value };
+}
+
+void Show(const int* arr, int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		std::cout << arr[i] << " ";
+	}
+}
+
+int* Min(int arr[], int size)
+{
+	int min = arr[0];
+	int minindex = 0;
+	for (int i = 1; i < size; i++)
+	{
+		if (min > arr[i])
+		{
+			min = arr[i];
+			minindex = i;
+		}
+	}
+	return arr + minindex;
+}*/
+
 
 
 
