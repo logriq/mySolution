@@ -1,2 +1,36 @@
-﻿  struct.cpp
-  project1.vcxproj -> C:\Users\Arina\Desktop\C++\solution\x64\Debug\project1.exe
+﻿  OOP.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(4,1): error C2628: недопустимый "Window" с последующим "int" (возможно, отсутствует ";")
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(4,5): error C3874: возвращаемый тип "main" должен быть "int", а не "Window"
+  window.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2): error C2440: return: невозможно преобразовать "int" в "Window"
+      C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2):
+      "Window::Window": ни одна перегруженная функция не может преобразовать все типы аргументов
+          C:\Users\Arina\Desktop\C++\solution\project1\Window.h(30,1):
+          может быть "Window::Window(Window &&)"
+              C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2):
+              "Window::Window(Window &&)": невозможно преобразовать аргумент 1 из "int" в "Window &&"
+                  C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,9):
+                  Причина: невозможно преобразовать "int" в "Window"
+                  C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,9):
+                  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+          C:\Users\Arina\Desktop\C++\solution\project1\Window.h(30,1):
+          или       "Window::Window(const Window &)"
+              C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2):
+              "Window::Window(const Window &)": невозможно преобразовать аргумент 1 из "int" в "const Window &"
+                  C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,9):
+                  Причина: невозможно преобразовать "int" в "const Window"
+                  C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,9):
+                  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+          C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2):
+          при попытке сопоставить список аргументов "(int)"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(4,1): error C2628: недопустимый "Window" с последующим "void" (возможно, отсутствует ";")
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(4,14): error C2556: Window Window::SetX(int): перегруженная функция отличается от "void Window::SetX(int)" только возвращаемым типом
+      C:\Users\Arina\Desktop\C++\solution\project1\Window.h(24,7):
+       см. объявление "Window::SetX"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(4,14): error C2371: Window::SetX: переопределение; различные базовые типы
+      C:\Users\Arina\Desktop\C++\solution\project1\Window.h(24,7):
+       см. объявление "Window::SetX"
+  
+  Создание кода...

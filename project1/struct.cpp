@@ -192,7 +192,7 @@ int main()
 
 //Структури в структурах
 
-struct Point
+/*struct Point
 {
 	int x;
 	int y;
@@ -218,5 +218,13 @@ int main()
 	piramide.mainSide.a.x = 10;
 
 	return 0;
-}
+}*/
+
+
+
+
+// Анонімні структури- структури, що не мають своє ім'я
+
+
+
 
