@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="20.02.cpp" />
+    <ClCompile Include="LinearSearch.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OOP.cpp" />
     <ClCompile Include="rectangle.cpp" />
     <ClCompile Include="struct.cpp" />
     <ClCompile Include="window.cpp" />
+    <ClCompile Include="Sorting.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="rectangle.h" />
