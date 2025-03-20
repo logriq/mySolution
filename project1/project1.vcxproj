@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="19.03.RAII.cpp" />
     <ClCompile Include="20.02.cpp" />
+    <ClCompile Include="inheritance_20.03.cpp" />
     <ClCompile Include="LinearSearch.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OOP.cpp" />
