@@ -3,6 +3,12 @@
 //Наслідування- концепція ООП, яка дозволяє створювати нові класи на основі вже існуючих.
 
 #include <iostream>
+
+
+//ЧАСТИНА 1.
+
+
+
 //Синтаксис наслідування:
 
 //class Ім'я_Дочірнього_Класу : Модифікатор_Наслудівання Ім'я_Батьківського_Класу
@@ -22,6 +28,15 @@ class Person
 
 class Vehicle
 {
+private:
+    Point position;
+    double height;
+    double lenght;
+    double width;
+
+protected:
+    double weight;
+
 public:
     void Move(Point direction);
     void Rotate(Point direction);
@@ -38,7 +53,10 @@ private:
     bool isStarted;
 
 public:
-    void FillUp(int points);
+    void FillUp(int points)
+    {
+        weight += points;
+    }
     void Start();
 };
 
@@ -54,13 +72,43 @@ public:
     void CallDispatcher(Person dispatcher);
 };
 
+
+
+
+
+
+//ЧАСТИНА 2.
+
+// Модифікатор досупу private - до всіх членів ниижче цього модифікатора досупу можна доступатися лише з методів цього класу
+
+
+
+
+class A
+{
+private:
+    int value1;
+    void Method1();
+
+public:
+    int value2;
+    void Method2()
+    {
+        value1 = 10;
+        Method1();
+    }
+};
+
 int main()
 {
-    Car car;
-    Plane plane;
-
-    plane.Move();
+    A object;
+    object.Method2();
     return 0;
 }
+
+
+
+
+
 
 
