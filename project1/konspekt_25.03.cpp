@@ -24,9 +24,13 @@ if len(arr) <= 1 :
 // Всі елементи, менші за pivot, потрапляють у left
 
 left = [x for x in arr if x < pivot]
-    # Всі елементи, рівні pivot, потрапляють у middle
+
+// Всі елементи, рівні pivot, потрапляють у middle
+
     middle = [x for x in arr if x == pivot]
-    # Всі елементи, більші за pivot, потрапляють у right
+
+// Всі елементи, більші за pivot, потрапляють у right
+
     right = [x for x in arr if x > pivot]
 
 //Рекурсивне сортування підмасивів та об'єднання результату
@@ -36,6 +40,9 @@ left = [x for x in arr if x < pivot]
 //Приклад використання швидкого сортування
     
 arr = [3, 6, 8, 10, 1, 2, 1, 5, 7, 4, 9]
+
     sorted_arr = quick_sort(arr)
+
     print("Вхідний масив:", arr)
-    print("Відсортований масив:", sorted_arr)  # Виведе відсортований масив
+
+    print("Відсортований масив:", sorted_arr) // Виведе відсортований масив

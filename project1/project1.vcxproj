@@ -133,6 +133,7 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Arrray.cpp" />
     <ClCompile Include="inheritance_20.03.cpp" />
+    <ClCompile Include="konspekt_25.03.cpp" />
     <ClCompile Include="LinearSearch.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OOP.cpp" />
