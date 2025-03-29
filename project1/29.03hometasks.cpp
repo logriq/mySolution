@@ -47,3 +47,21 @@ int main() {
 
 
 
+
+
+
+//2.Як заборонити копіювання та переміщення для класу?  Підказка: як використовувтаи  "= delete"?
+
+
+class NonCopyable {
+public:
+    NonCopyable() = default;
+
+    // Забороняємо копіювання
+    NonCopyable(const NonCopyable&) = delete;
+    NonCopyable& operator=(const NonCopyable&) = delete;
+
+    // Забороняємо переміщення
+    NonCopyable(NonCopyable&&) = delete;
+    NonCopyable& operator=(NonCopyable&&) = delete;
+};
