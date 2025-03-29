@@ -130,6 +130,7 @@
     <ClCompile Include="19.03.RAII.cpp" />
     <ClCompile Include="20.02.cpp" />
     <ClCompile Include="22.03.task.cpp" />
+    <ClCompile Include="29.03hometasks.cpp" />
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Arrray.cpp" />
     <ClCompile Include="inheritance_20.03.cpp" />
