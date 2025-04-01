@@ -139,6 +139,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OOP.cpp" />
     <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="STL\vector.cpp" />
     <ClCompile Include="struct.cpp" />
     <ClCompile Include="window.cpp" />
     <ClCompile Include="Sorting.cpp" />
