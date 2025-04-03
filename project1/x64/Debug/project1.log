@@ -1,36 +1,384 @@
-﻿  OOP.cpp
-C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(4,1): error C2628: недопустимый "Window" с последующим "int" (возможно, отсутствует ";")
-C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(4,5): error C3874: возвращаемый тип "main" должен быть "int", а не "Window"
+﻿  19.03.RAII.cpp
+  20.02.cpp
+  22.03.task.cpp
+  29.03hometasks.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(45,13): error C2065: newAge: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(47,19): error C2065: newAge: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(69,21): error C2373: one1: переопределение; различные модификаторы типа
+      C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(63,15):
+       см. объявление "one1"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(70,22): error C2373: ref1: переопределение; различные модификаторы типа
+      C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(64,16):
+       см. объявление "ref1"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(71,22): error C2373: ptr1: переопределение; различные модификаторы типа
+      C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(65,16):
+       см. объявление "ptr1"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(72,21): error C2373: arr1: переопределение; различные модификаторы типа
+      C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(66,15):
+       см. объявление "arr1"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(88,10): error C2039: "ChngeAge": не является членом "Student1".
+      C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(26,7):
+       см. объявление "Student1"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(4,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(4,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "d"
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(5,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(5,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(5,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(5,12): error C2065: d: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(6,1): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(6,4): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(6,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(6,1): error C2040: p: "int" отличается по уровням косвенного обращения от "int *"
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(6,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "show"
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(34,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "d"
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(34,13): error C2065: d: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(36,9): error C2297: "*": недопустимо, поскольку тип правого операнда — "int *"
+C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(36,16): error C2065: d: необъявленный идентификатор
+  Array.cpp
+  Arrray.cpp
+  inheritance_20.03.cpp
+  konspekt_25.03.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(1,5): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "quick_sort"
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(16,1): error C2059: синтаксическая ошибка: if
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(17,5): error C2059: синтаксическая ошибка: return
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(64,9): error C2059: синтаксическая ошибка: if
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(65,13): error C2059: синтаксическая ошибка: return
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(68,44): error C2143: синтаксическая ошибка: отсутствие ";" перед "]"
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(68,41): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(68,44): error C2059: синтаксическая ошибка: ]
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(68,45): error C2059: синтаксическая ошибка: )
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(69,45): error C2059: синтаксическая ошибка: ]
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(69,46): error C2059: синтаксическая ошибка: )
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(74,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(75,13): error C2760: синтаксическая ошибка: непредвиденный элемент "i". Ожидается "{"
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(75,15): error C2059: синтаксическая ошибка: =
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(78,17): error C2059: синтаксическая ошибка: if
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(79,21): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(79,31): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(79,32): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(79,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(79,21): error C2086: int sorted_arr: переопределение
+      C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(74,13):
+       см. объявление "sorted_arr"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(79,32): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "append"
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(82,5): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(82,15): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(82,16): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(82,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(82,5): error C2086: int sorted_arr: переопределение
+      C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(74,13):
+       см. объявление "sorted_arr"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(82,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "append"
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(85,34): error C2059: синтаксическая ошибка: ]
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(85,35): error C2059: синтаксическая ошибка: )
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(86,35): error C2059: синтаксическая ошибка: ]
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(86,36): error C2059: синтаксическая ошибка: )
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(93,34): error C2014: команда препроцессора не должна начинаться с пробела
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(98,34): error C2014: команда препроцессора не должна начинаться с пробела
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(103,34): error C2014: команда препроцессора не должна начинаться с пробела
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(108,34): error C2014: команда препроцессора не должна начинаться с пробела
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(113,34): error C2014: команда препроцессора не должна начинаться с пробела
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(118,34): error C2014: команда препроцессора не должна начинаться с пробела
+C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(123,34): error C2014: команда препроцессора не должна начинаться с пробела
+  LinearSearch.cpp
+  OOP.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(5,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window5"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(6,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(6,1): error C2371: Window: переопределение; различные базовые типы
+      C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(5,1):
+       см. объявление "Window"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(6,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window6"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(6,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(6,15): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(9,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(9,1): error C2371: Window: переопределение; различные базовые типы
+      C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(5,1):
+       см. объявление "Window"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(9,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window11"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(10,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(10,1): error C2371: Window: переопределение; различные базовые типы
+      C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(5,1):
+       см. объявление "Window"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(10,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window12"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(10,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(10,16): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(17,10): error C2065: arr: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(17,20): error C2061: синтаксическая ошибка: идентификатор "Window"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(18,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(21,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(25,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window1"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(25,9): error C2065: window1: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(26,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window2"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(26,9): error C2065: window2: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(29,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window7"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(29,9): error C3861: window7: идентификатор не найден
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(30,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window8"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(30,9): error C2065: window8: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(33,10): error C2065: window3: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(33,24): error C2061: синтаксическая ошибка: идентификатор "Window"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(34,10): error C2065: window4: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(34,24): error C2061: синтаксическая ошибка: идентификатор "Window"
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(37,10): error C2065: window9: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(38,10): error C2065: window10: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(40,2): error C2065: window11: необъявленный идентификатор
+  rectangle.cpp
+  vector.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(33,22): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(33,11): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(33,28): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(35,10): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(35,10): error C2065: cout: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(36,10): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(36,10): error C2065: cout: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(39,14): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(39,14): error C2065: cout: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(45,18): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(45,18): error C2065: cout: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(45,34): error C2109: для индекса требуется массив или указатель
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(49,10): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(49,10): error C2065: cout: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(49,23): error C2039: "endl": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(49,23): error C2065: endl: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(50,10): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(50,10): error C2065: cout: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(50,53): error C2039: "endl": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(50,53): error C2065: endl: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(51,10): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(51,10): error C2065: cout: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(51,61): error C2039: "endl": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(51,61): error C2065: endl: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(52,10): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(52,10): error C2065: cout: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(64,10): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(64,10): error C2065: vector: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(64,17): error C2062: тип "int" не требуется
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(65,10): error C2065: v1: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(68,10): error C2039: "allocator": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(68,10): error C2065: allocator: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(68,20): error C2062: тип "int" не требуется
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(69,10): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(69,10): error C2065: vector: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(69,17): error C2062: тип "int" не требуется
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(70,10): error C2065: v2: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(73,10): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(73,10): error C2065: vector: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(73,17): error C2062: тип "int" не требуется
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(73,24): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(73,56): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(74,10): error C2065: v3: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(77,10): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(77,10): error C2065: vector: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(77,17): error C2062: тип "int" не требуется
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(78,10): error C2065: v4: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(81,10): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(81,10): error C2065: vector: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(81,17): error C2062: тип "int" не требуется
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(81,30): error C2039: "move": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+      C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(81,30):
+      вы собирались включить <utility>?
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(82,10): error C2065: v4: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(83,10): error C2065: v5: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(86,10): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(86,10): error C2065: vector: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(86,17): error C2062: тип "int" не требуется
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(87,10): error C2065: v6: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(90,10): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(90,10): error C2065: vector: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(90,17): error C2062: тип "int" не требуется
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(91,10): error C2065: v7: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(94,10): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(94,10): error C2065: vector: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(94,17): error C2062: тип "int" не требуется
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(95,10): error C2065: v8: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(105,6): error C2039: "vector": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(105,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(105,6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(105,12): error C2059: синтаксическая ошибка: <
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(105,24): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(105,24): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(108,6): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(108,11): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(108,6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(108,11): error C2059: синтаксическая ошибка: <<
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(108,55): error C2039: "endl": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(109,1): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(109,7): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(109,8): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(109,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(109,1): error C2086: int vector: переопределение
+      C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(105,6):
+       см. объявление "vector"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(109,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "front"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(110,6): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(110,11): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(110,6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(110,6): error C2086: int cout: переопределение
+      C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(108,6):
+       см. объявление "cout"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(110,11): error C2059: синтаксическая ошибка: <<
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(110,55): error C2039: "endl": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(113,6): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(113,11): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(113,6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(113,6): error C2086: int cout: переопределение
+      C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(108,6):
+       см. объявление "cout"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(113,11): error C2059: синтаксическая ошибка: <<
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(113,54): error C2039: "endl": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(114,1): error C3927: "->": конечный тип возвращаемого значения недопустим после оператора объявления, не относящегося к функции.
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(114,7): error C3484: синтаксическая ошибка: требуется "->" перед возвращающим типом
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(114,8): error C3613: отсутствует тип возвращаемого значения после "->" (предполагается int)
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(114,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(114,1): error C2086: int vector: переопределение
+      C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(105,6):
+       см. объявление "vector"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(114,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "back"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(115,6): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(115,11): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(115,6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(115,6): error C2086: int cout: переопределение
+      C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(108,6):
+       см. объявление "cout"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(115,11): error C2059: синтаксическая ошибка: <<
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(115,54): error C2039: "endl": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(119,6): error C2039: "cout": не является членом "std".
+      C:\Users\Arina\Desktop\C++\solution\project1\predefined C++ types (compiler internal)(357,11):
+       см. объявление "std"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(119,11): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(119,6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(119,6): error C2086: int cout: переопределение
+      C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(108,6):
+       см. объявление "cout"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\STL\vector.cpp(119,6): error C1003: число ошибок превышает 100; остановка компиляции
+  string.cpp
   window.cpp
-C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2): error C2440: return: невозможно преобразовать "int" в "Window"
-      C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2):
-      "Window::Window": ни одна перегруженная функция не может преобразовать все типы аргументов
-          C:\Users\Arina\Desktop\C++\solution\project1\Window.h(30,1):
-          может быть "Window::Window(Window &&)"
-              C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2):
-              "Window::Window(Window &&)": невозможно преобразовать аргумент 1 из "int" в "Window &&"
-                  C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,9):
-                  Причина: невозможно преобразовать "int" в "Window"
-                  C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,9):
-                  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-          C:\Users\Arina\Desktop\C++\solution\project1\Window.h(30,1):
-          или       "Window::Window(const Window &)"
-              C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2):
-              "Window::Window(const Window &)": невозможно преобразовать аргумент 1 из "int" в "const Window &"
-                  C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,9):
-                  Причина: невозможно преобразовать "int" в "const Window"
-                  C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,9):
-                  Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-          C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(14,2):
-          при попытке сопоставить список аргументов "(int)"
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(4,9): error C2761: "{ctor}": повторное объявление члена запрещено.
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(6,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(14,9): error C2511: Window::Window(int,int): перегруженная функция-член не найдена в "Window"
+      C:\Users\Arina\Desktop\C++\solution\project1\Window.h(2,7):
+       см. объявление "Window"
   
-C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(4,1): error C2628: недопустимый "Window" с последующим "void" (возможно, отсутствует ";")
-C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(4,14): error C2556: Window Window::SetX(int): перегруженная функция отличается от "void Window::SetX(int)" только возвращаемым типом
-      C:\Users\Arina\Desktop\C++\solution\project1\Window.h(24,7):
-       см. объявление "Window::SetX"
-  
-C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(4,14): error C2371: Window::SetX: переопределение; различные базовые типы
-      C:\Users\Arina\Desktop\C++\solution\project1\Window.h(24,7):
-       см. объявление "Window::SetX"
-  
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(15,20): error C2065: OriginY: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(16,1): error C2550: Window::{ctor}: список инициализации конструктора должен использоваться только в месте определения конструктора
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(22,6): error C2065: newHeight: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(24,12): error C2065: newHeight: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(30,6): error C2065: newX: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(30,18): error C2065: newX: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(32,7): error C2065: newWX: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(36,2): error C2059: синтаксическая ошибка: return
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(37,1): error C2059: синтаксическая ошибка: }
+C:\Users\Arina\Desktop\C++\solution\project1\window.cpp(37,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  Sorting.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\Sorting.cpp(86,5): error C3861: BubbleSort: идентификатор не найден
   Создание кода...
