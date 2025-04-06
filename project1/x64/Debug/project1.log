@@ -1,5 +1,4 @@
-﻿  19.03.RAII.cpp
-  20.02.cpp
+﻿  20.02.cpp
   22.03.task.cpp
   29.03hometasks.cpp
 C:\Users\Arina\Desktop\C++\solution\project1\20.02.cpp(45,13): error C2065: newAge: необъявленный идентификатор
@@ -40,8 +39,23 @@ C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(34,13): error C2
 C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(36,9): error C2297: "*": недопустимо, поскольку тип правого операнда — "int *"
 C:\Users\Arina\Desktop\C++\solution\project1\29.03hometasks.cpp(36,16): error C2065: d: необъявленный идентификатор
   Array.cpp
-  Arrray.cpp
-  inheritance_20.03.cpp
+  Dynamic_Polymorphism.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\Dynamic_Polymorphism.cpp(15,9): error C2253: Parent::doSomething: в виртуальной функции допускаются только чистый спецификатор или абстрактный спецификатор переопределения
+C:\Users\Arina\Desktop\C++\solution\project1\Dynamic_Polymorphism.cpp(25,12): error C2259: "Parent": невозможно создать экземпляр абстрактного класса
+      C:\Users\Arina\Desktop\C++\solution\project1\Dynamic_Polymorphism.cpp(6,7):
+       см. объявление "Parent"
+      C:\Users\Arina\Desktop\C++\solution\project1\Dynamic_Polymorphism.cpp(25,12):
+      из-за следующих членов:
+      C:\Users\Arina\Desktop\C++\solution\project1\Dynamic_Polymorphism.cpp(25,12):
+      int Parent::getValue(void): абстрактный
+      C:\Users\Arina\Desktop\C++\solution\project1\Dynamic_Polymorphism.cpp(13,17):
+       см. объявление "Parent::getValue"
+  
+C:\Users\Arina\Desktop\C++\solution\project1\Dynamic_Polymorphism.cpp(96,5): error C2084: функция "int main(void)" уже имеет текст реализации
+      C:\Users\Arina\Desktop\C++\solution\project1\Dynamic_Polymorphism.cpp(23,5):
+      см. предыдущее определение "main"
+  
+  header.cpp
   konspekt_25.03.cpp
 C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
 C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(1,5): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "quick_sort"
@@ -89,6 +103,8 @@ C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(113,34): error C
 C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(118,34): error C2014: команда препроцессора не должна начинаться с пробела
 C:\Users\Arina\Desktop\C++\solution\project1\konspekt_25.03.cpp(123,34): error C2014: команда препроцессора не должна начинаться с пробела
   LinearSearch.cpp
+  03.04.cpp
+C:\Users\Arina\Desktop\C++\solution\project1\main\03.04.cpp(25,10): error C1083: Не удается открыть файл включение: Header.h: No such file or directory,
   OOP.cpp
 C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(5,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "window5"
 C:\Users\Arina\Desktop\C++\solution\project1\OOP.cpp(6,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
