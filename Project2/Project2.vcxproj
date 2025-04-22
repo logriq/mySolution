@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="SmartPointers.cpp" />
+    <ClCompile Include="WorkingWithFiles.cpp" />
+    <ClCompile Include="WorkingWithFiles2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
