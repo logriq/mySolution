@@ -1,0 +1,61 @@
+﻿  BinaryTree.cpp
+  exeption.cpp
+C:\Users\Arina\Desktop\C++\solution\Project2\exeption.cpp(69,16): warning C4101: ec: неиспользованная локальная переменная
+  SmartPointers.cpp
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(35,40): warning C4101: deleter: неиспользованная локальная переменная
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(41,5): error C2084: функция "int main(void)" уже имеет текст реализации
+      C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(29,5):
+      см. предыдущее определение "main"
+  
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(57,9): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(220,13): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(227,25): error C2065: Person: необъявленный идентификатор
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(227,14): error C2923: std::shared_ptr: "Person" не является допустимым аргументом типа шаблон для параметра "_Ty"
+      C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(227,25):
+       см. объявление "Person"
+  
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(227,42): error C2061: синтаксическая ошибка: идентификатор "Person"
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(227,48): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(227,49): error C3329: синтаксическая ошибка: ожидался ")", а не "}"
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(227,37): error C2514: "std::shared_ptr": невозможно создать шаблон класса.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+       см. объявление "std::shared_ptr"
+  
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(227,50): error C2059: синтаксическая ошибка: )
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(229,14): error C2662: void std::shared_ptr<_Ty>::reset(void) noexcept: невозможно преобразовать указатель "this" из "std::shared_ptr" в "std::shared_ptr<_Ty> &"
+      C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(229,9):
+      Причина: невозможно преобразовать "std::shared_ptr" в "std::shared_ptr<_Ty>"
+      C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(229,9):
+      Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1731,10):
+       см. объявление "std::shared_ptr<_Ty>::reset"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1755,10):
+      может быть "void std::shared_ptr<_Ty>::reset(_Ux *,_Dx,_Alloc)"
+          C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(229,14):
+          "void std::shared_ptr<_Ty>::reset(_Ux *,_Dx,_Alloc)": ожидаются аргументы 3 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1747,10):
+      или       "void std::shared_ptr<_Ty>::reset(_Ux *,_Dx)"
+          C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(229,14):
+          "void std::shared_ptr<_Ty>::reset(_Ux *,_Dx)": ожидаются аргументы 2 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1739,10):
+      или       "void std::shared_ptr<_Ty>::reset(_Ux *)"
+          C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(229,14):
+          "void std::shared_ptr<_Ty>::reset(_Ux *)": ожидаются аргументы 1 — 0 предоставлены
+      C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(229,14):
+      при попытке сопоставить список аргументов "()"
+  
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(235,16): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+C:\Users\Arina\Desktop\C++\solution\Project2\SmartPointers.cpp(238,19): warning C4834: удаление возвращаемого значения функции с атрибутом [[nodiscard]]
+  WorkingWithFiles.cpp
+C:\Users\Arina\Desktop\C++\solution\Project2\WorkingWithFiles.cpp(16,5): error C3861: CreateFolder: идентификатор не найден
+C:\Users\Arina\Desktop\C++\solution\Project2\WorkingWithFiles.cpp(19,5): error C3861: RenameFolder: идентификатор не найден
+C:\Users\Arina\Desktop\C++\solution\Project2\WorkingWithFiles.cpp(22,5): error C3861: DeleteFolder: идентификатор не найден
+C:\Users\Arina\Desktop\C++\solution\Project2\WorkingWithFiles.cpp(25,5): error C3861: CloseFile: идентификатор не найден
+C:\Users\Arina\Desktop\C++\solution\Project2\WorkingWithFiles.cpp(28,5): error C3861: WriteIntoFile: идентификатор не найден
+C:\Users\Arina\Desktop\C++\solution\Project2\WorkingWithFiles.cpp(31,5): error C3861: FilePositioning: идентификатор не найден
+C:\Users\Arina\Desktop\C++\solution\Project2\WorkingWithFiles.cpp(214,5): error C2084: функция "int main(void)" уже имеет текст реализации
+      C:\Users\Arina\Desktop\C++\solution\Project2\WorkingWithFiles.cpp(3,5):
+      см. предыдущее определение "main"
+  
+  WorkingWithFiles2.cpp
+  Создание кода...
