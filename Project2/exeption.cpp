@@ -1,5 +1,5 @@
-#include <iostream>
-#include <exception>
+//#include <iostream>
+//#include <exception>
 
 //Проблема обробки помилок
 
@@ -305,56 +305,56 @@ int main()
 
 //Специфікація виключень throw(...)
 
-
-class Exception
-{
-public:
-    Exception()
-    {
-        std::cout << "Default Constructor\n";
-    }
-    Exception(const Exception& other)
-    {
-        std::cout << "Copy Constructor\n";
-    }
-};
-
-void Func1() throw () // функція не кидає ніяких виключень
-{
-    std::cout << "Func1\n";
-    throw 10;
-}
-
-void Func2() throw(...) // функція може кидати виключення якихось типів
-{
-    std::cout << "Func2\n";
-    throw 10;
-}
-
-// функція може кидати виключення вказаних типів
-void Func3() throw(Exception, std::exception, std::bad_alloc)
-{
-    std::cout << "Func3\n";
-    throw Exception();
-}
-
-int main()
-{
-    try
-    {
-        //Func1();
-        //Func2();
-        Func3();
-    }
-    catch (const Exception& e)
-    {
-
-    }
-    return 0;
-}
-
-
-
-
-
-
+//
+//class Exception
+//{
+//public:
+//    Exception()
+//    {
+//        std::cout << "Default Constructor\n";
+//    }
+//    Exception(const Exception& other)
+//    {
+//        std::cout << "Copy Constructor\n";
+//    }
+//};
+//
+//void Func1() throw () // функція не кидає ніяких виключень
+//{
+//    std::cout << "Func1\n";
+//    throw 10;
+//}
+//
+//void Func2() throw(...) // функція може кидати виключення якихось типів
+//{
+//    std::cout << "Func2\n";
+//    throw 10;
+//}
+//
+//// функція може кидати виключення вказаних типів
+//void Func3() throw(Exception, std::exception, std::bad_alloc)
+//{
+//    std::cout << "Func3\n";
+//    throw Exception();
+//}
+//
+//int main()
+//{
+//    try
+//    {
+//        //Func1();
+//        //Func2();
+//        Func3();
+//    }
+//    catch (const Exception& e)
+//    {
+//
+//    }
+//    return 0;
+//}
+//
+//
+//
+//
+//
+//

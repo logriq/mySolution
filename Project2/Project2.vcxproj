@@ -127,14 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryTree.cpp" />
-    <ClCompile Include="exeption.cpp" />
-    <ClCompile Include="SmartPointers.cpp" />
-    <ClCompile Include="WorkingWithFiles.cpp" />
-    <ClCompile Include="WorkingWithFiles2.cpp" />
+    <ClCompile Include="ht19.03.cpp" />
+    <ClCompile Include="Repository8.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="Repository8.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

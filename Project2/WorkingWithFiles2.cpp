@@ -1,11 +1,11 @@
-#include <ios>
-#include <iostream>
-#include <istream>
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <vector>
-
+//#include <ios>
+//#include <iostream>
+//#include <istream>
+//#include <iostream>
+//#include <fstream>
+//#include <string>
+//#include <vector>
+//
 /*
 	 Ієрархія потоків вводу / виводу в C++
 
