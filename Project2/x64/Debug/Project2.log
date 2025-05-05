@@ -1,4 +1,52 @@
-﻿  Repository8.cpp
-  ht19.03.cpp
+﻿  Fraction.cpp
+C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(33,22): error C2678: бинарный "*": не найден оператор, принимающий левый операнд типа "const Fraction" (или приемлемое преобразование отсутствует)
+      C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.h(12,14):
+      может быть "Fraction Fraction::operator *(int)"
+          C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(33,22):
+          Fraction Fraction::operator *(int): невозможно преобразовать указатель "this" из "const Fraction" в "Fraction &"
+              C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(33,22):
+              В результате преобразования теряются квалификаторы
+      C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.h(11,14):
+      или       "Fraction Fraction::operator *(const Fraction &)"
+          C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(33,22):
+          Fraction Fraction::operator *(const Fraction &): невозможно преобразовать указатель "this" из "const Fraction" в "Fraction &"
+              C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(33,22):
+              В результате преобразования теряются квалификаторы
+      C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.h(15,21):
+      или       "Fraction operator *(int,const Fraction &)" [найдено при поиске с зависимостью от аргументов]
+          C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(33,22):
+          "Fraction operator *(int,const Fraction &)": невозможно преобразовать аргумент 1 из "const Fraction" в "int"
+              C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(33,22):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(33,22):
+      при попытке сопоставить список аргументов "(const Fraction, int)"
+  
+C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(87,12): error C2678: бинарный "*": не найден оператор, принимающий левый операнд типа "const Fraction" (или приемлемое преобразование отсутствует)
+      C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(45,20):
+      может быть "Fraction Fraction::operator *(int)"
+          C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(87,12):
+          Fraction Fraction::operator *(int): невозможно преобразовать указатель "this" из "const Fraction" в "Fraction &"
+              C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(87,12):
+              В результате преобразования теряются квалификаторы
+      C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(36,20):
+      или       "Fraction Fraction::operator *(const Fraction &)"
+          C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(87,12):
+          Fraction Fraction::operator *(const Fraction &): невозможно преобразовать указатель "this" из "const Fraction" в "Fraction &"
+              C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(87,12):
+              В результате преобразования теряются квалификаторы
+      C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(85,10):
+      или       "Fraction operator *(int,const Fraction &)"
+          C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(87,12):
+          "Fraction operator *(int,const Fraction &)": невозможно преобразовать аргумент 1 из "const Fraction" в "int"
+              C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(87,12):
+              Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      C:\Users\Arina\Desktop\C++\solution\Project2\Fraction.cpp(87,12):
+      при попытке сопоставить список аргументов "(const Fraction, int)"
+  
+  Matrix.cpp
+C:\Users\Arina\Desktop\C++\solution\Project2\Matrix.cpp(135,17): error C2382: Matrix::operator =: переопределение; разные спецификации исключений
+      C:\Users\Arina\Desktop\C++\solution\Project2\Matrix.h(28,13):
+       см. объявление "Matrix::operator ="
+  
+C:\Users\Arina\Desktop\C++\solution\Project2\Matrix.cpp(380,20): warning C4244: аргумент: преобразование "double" в "const int", возможна потеря данных
   Создание кода...
-  Project2.vcxproj -> C:\Users\Arina\Desktop\C++\solution\x64\Debug\Project2.exe
