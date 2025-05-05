@@ -19,15 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Complex.cpp" />
-    <ClCompile Include="Fraction.cpp" />
-    <ClCompile Include="main14.02.cpp" />
-    <ClCompile Include="Matrix.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Complex.h" />
-    <ClInclude Include="Fraction.h" />
-    <ClInclude Include="Matrix.h" />
+    <ClCompile Include="Lambdas.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
