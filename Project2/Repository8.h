@@ -1,47 +1,46 @@
 template <typename T>
 class Repository8 {
 private:
-    T data[8]; // Масив для 8 значень
+    T data[8];
 public:
     Repository8() {
         for (int i = 0; i < 8; i++) {
-            data[i] = T(); // Заповнюємо нулі
+            data[i] = T();
         }
     }
     void set(int index, T value) {
         if (index >= 0 && index < 8) {
-            data[index] = value; // Записуємо значення
+            data[index] = value;
         }
     }
     T get(int index) {
         if (index >= 0 && index < 8) {
-            return data[index]; // Повертаємо значення
+            return data[index];
         }
-        return T(); // Повертаємо 0, якщо індекс поганий
+        return T();
     }
 };
 
-// Спеціалізація для bool
 template <>
 class Repository8<bool> {
 private:
-    unsigned char data; // Один байт для 8 бітів
+    unsigned char data;
 public:
-    Repository8() : data(0) {} // Ініціалізуємо байт нулем
+    Repository8() : data(0) {}
     void set(int index, bool value) {
         if (index >= 0 && index < 8) {
             if (value) {
-                data |= (1 << index); // Встановлюємо біт у 1
+                data |= (1 << index);
             }
             else {
-                data &= ~(1 << index); // Встановлюємо біт у 0
+                data &= ~(1 << index);
             }
         }
     }
     bool get(int index) {
         if (index >= 0 && index < 8) {
-            return (data >> index) & 1; // Повертаємо значення біта
+            return (data >> index) & 1;
         }
-        return false; // Повертаємо false, якщо індекс поганий
+        return false;
     }
 };
