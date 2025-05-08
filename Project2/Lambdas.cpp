@@ -72,7 +72,7 @@ void ForAllElements(T arr[], size_t size, Func func)
 
 int main()
 {
-    const size_t SIZE2 = 3;
+    const size_t SIZE1 = 3;
     int arr1[SIZE1] = { 10, 20, 30 };
 
     const size_t SIZE2 = 5;
@@ -83,15 +83,22 @@ int main()
 
     auto showCube = [](int number) { std::cout << std::pow(number, 3) << " "; };
     auto showSquareRoot = [](double number) { std::cout << std::sqrt(number) << " "; };
+    auto show = [](auto element) { std::cout << element << " "; };
 
-    ForAllElements(arr1, SIZE1, showCube);
+    ForAllElements(arr1, SIZE1, show);
     std::cout << std::endl;
+    ForAllElements(arr2, SIZE2, show);
+    std::cout << std::endl;
+    ForAllElements(arr3, SIZE3, show);
+    return 0;
+}
 
-    ForAllElements(arr2, SIZE2, showCube);
-    std::cout << std::endl;
 
-    ForAllElements(arr1, SIZE1, showSquareRoot);
-    std::cout << std::endl;
 
-    ForAllElements(arr2, SIZE2, showSquareRoot);
-    std::cout << std::endl;
+
+
+
+
+
+
+
