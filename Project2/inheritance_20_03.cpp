@@ -115,53 +115,148 @@
 
 //Модифікатор доступу protected
     //модифікатор доступу - модифікатор, який встановлює відповідно правила доступу до певного члену класу
-class A {
-private: //ніхто крім нашого класу не може поступиться до членів нашого класу
-    int value1;
-    void method1();
+//class A {
+//private: //ніхто крім нашого класу не може поступиться до членів нашого класу
+//    int value1;
+//    void method1();
+//
+//protected: //до цієї частини класу може поступиться як цей клас так і дочірні класи
+//    double weight;
+//
+//public: //будь-які: і методи класи і тд можуть посутпиться
+//    int value2;
+//    void method2();
+//};
+//
+////Наслідування і конструуктори
+//#include "Array.h"
+//
+//class A
+//{
+//public:
+//    A() { std::cout << "A::A() \n"; }
+//    A(int a) { std::cout << "A::A(int a) \n"; }
+//    A(int a, int b) { std::cout << "A::A(int a, int b) \n"; }
+//    A(const A& other) { std::cout << "A::A(const A& other) \n"; }
+//};
+//class B : public A
+//{
+//
+//public:
+//    B() : A() { std::cout << "B::B() \n"; }
+//    B(int a) : A(a) { std::cout << "B::B(int a) \n"; }
+//    B(int a, int b) : A(a, b) { std::cout << "B::B(int a, int b) \n"; }
+//    B(const B& other) : A(other) { std::cout << "B::B(const B& other) \n"; }
+//};
+//
+//int main()
+//{
+//    A object;
+//
+//
+//    Array myArray(5);
+//    for (size_t i = 0; i < myArray.Size(); i++)
+//    {
+//        std::cout << myArray[i] << " ";
+//    }
+//
+//    B object;
+//
+//
+//    std::cout << "Hello World!\n";
+//}
 
-protected: //до цієї частини класу може поступиться як цей клас так і дочірні класи
-    double weight;
 
-public: //будь-які: і методи класи і тд можуть посутпиться
-    int value2;
-    void method2();
-};
 
-//Наслідування і конструуктори
-#include "Array.h"
-
-class A
-{
-public:
-    A() { std::cout << "A::A() \n"; }
-    A(int a) { std::cout << "A::A(int a) \n"; }
-    A(int a, int b) { std::cout << "A::A(int a, int b) \n"; }
-    A(const A& other) { std::cout << "A::A(const A& other) \n"; }
-};
-class B : public A
-{
-
-public:
-    B() : A() { std::cout << "B::B() \n"; }
-    B(int a) : A(a) { std::cout << "B::B(int a) \n"; }
-    B(int a, int b) : A(a, b) { std::cout << "B::B(int a, int b) \n"; }
-    B(const B& other) : A(other) { std::cout << "B::B(const B& other) \n"; }
-};
 
 int main()
 {
-    A object;
+    A objectA;
+    B objectB;
+    C objectC;
+
+    objectA.A_Private_Method();
+    objectA.A_Protected_Method();
+    objectA.A_Public_Method();
+
+    objectB.B_Private_Method();
+    objectB.B_Protected_Method();
+    objectB.B_Public_Method();
+
+    objectC.C_Private_Method();
+    objectC.C_Protected_Method();
+    objectC.C_Public_Method();
+}
+// Модифікатори наслідування:
+//               A -> private member | A -> protected member | A -> public member
+// private A   : private member      | private member        | private member
+// protected A : private member      | protected member      | protected member
+// public A    : private member      | protected member      | public member
 
 
-    Array myArray(5);
-    for (size_t i = 0; i < myArray.Size(); i++)
+//Відмінність муж структурою і класом
+#include <stdio.h>
+
+struct Point
+{
+private:
+    double x = double();
+    double y = double();
+public:
+    Point(int x = 0, int y = 0);
+};
+//в struct при замовчуванні йде в public, а у class при замовучанні у private
+int main(void)
+{
+    struct Point origin { 10, 20 };
+
+    printf("Hello orld");
+    return 0;
+}
+
+//Реалізація множинного наслідування
+class Student
+{
+private:
+    int course;
+    double scholarship;
+    int subjects;
+
+public:
+    Student(int curse, double scholarship, int subjects)
+        :curse(curse), scholarship(scholarship), subjects(subjects)
     {
-        std::cout << myArray[i] << " ";
     }
 
-    B object;
+    int GetCourse() const { return course; }
+};
 
+class Suit {};
 
-    std::cout << "Hello World!\n";
-}
+class Waiter
+{
+private:
+    Suit suit;
+    double salary;
+    const char* company;
+
+public:
+    Waiter(double salary, const char* company)
+        : salary(salary), company(company)
+    {
+    }
+    double Salary() const { return salary; }
+
+};
+
+class StudentWaiter : public Student, public Waiter
+{
+private:
+    int daysToDeath;
+
+public:
+    StudentWaiter(int daysToDeath, int curse, double scholarship, int subjects)
+        :daysToDeath(daysToDeath)
+    {
+    }
+};
