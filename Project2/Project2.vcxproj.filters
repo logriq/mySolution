@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="singly-linked_list.cpp">
+    <ClCompile Include="inheritance_20_03.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="List.cpp">
+    <ClCompile Include="Array.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="List.h">
+    <ClInclude Include="Array.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

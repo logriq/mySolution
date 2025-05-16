@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="List.cpp" />
-    <ClCompile Include="singly-linked_list.cpp" />
+    <ClCompile Include="Array.cpp" />
+    <ClCompile Include="inheritance_20_03.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="List.h" />
+    <ClInclude Include="Array.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
