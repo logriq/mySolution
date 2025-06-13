@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="unordered_containers.cpp">
+    <ClCompile Include="HashMaps.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
